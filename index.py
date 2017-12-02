@@ -2,6 +2,7 @@
 
 from bottle import *
 import pymysql
+import json, urllib.request
 
 #static files route
 @route("/static/<filename>")
@@ -14,7 +15,10 @@ def index():
 
 @route("/performers")
 def index():
-    return template("performers.tpl")
+    with urllib.request.urlopen("http://www.apis.is/concerts") as skra:
+        data = json.loads(skra.read().decode())
+    data = data["results"]
+    return template("performers.tpl",data = data)
 
 @route("/tickets")
 def index():
