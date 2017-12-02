@@ -16,4 +16,8 @@ def index():
 def index():
     return template("performers.tpl")
 
+@route("/tickets")
+def index():
+    return template("ticket.tpl")
+
 run(host='localhost', port=8080)

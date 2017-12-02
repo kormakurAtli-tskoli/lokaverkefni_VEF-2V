@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="text/html; charset=utf-8" http-equiv="Content-type">
-<title>Tickets</title>
-  <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
-  <link href="CSS.css" rel="stylesheet" type="text/css">
-  <link href="scripts.js" rel="stylesheet" type="text/css">
-  <link href="icon.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header class="headlogo">
-    <img src="yung.svg">
-</header>
-  <nav class="navcontent">
-    <input id="toggle" type="checkbox"> <label for="toggle">&#9776; menu</label>
-      <div class="navigation">
-          <section>
-            <a href="index.tpl">Home <span class="icon-home"></span></a>
-          </section>
-          <section>
-            <a href="Performers.tpl">Performers <span class="icon-hammer"></span></a>
-          </section>
-          <section>
-            <a href="ticket.tpl">Buy tickets <span class="icon-file-text"></span></a>
-          </section>
-      </div>
-  </nav>
-
+	<head>
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<meta content="text/html; charset=utf-8" http-equiv="Content-type">
+		<title>Yung Innovation 2017</title>
+		<link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+		<link href="static/style.css" rel="stylesheet" type="text/css">
+		<link href="static/scripts.js" rel="stylesheet" type="text/css">
+		<link href="static/icon.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="haus-container">
+			<div class="haus">
+				<header class="headlogo">
+					<img src="static/yung.svg">
+				</header>
+				<nav class="navcontent">
+					<input id="toggle" type="checkbox"> <label for="toggle">&#9776; menu</label>
+					<div class="navigation">
+						<section>
+							<a href="/">Home</a>
+						</section>
+						<section>
+							<a href="/performers">Performers</a>
+						</section>
+						<section>
+							<a href="#">Tickets</a>
+						</section>
+					</div>
+				</nav>
+			</div>
+		</div>
 <h1>Ticket Sale</h1>
 	<h3>Basic Information</h3>
-		<form action="/action_page.php" autocomplete="on">
+		<form action="get" autocomplete="on">
 		  First name:<input type="text" name="fname"><br>
 		  Last name: <input type="text" name="lname"><br>
 		  E-mail: <input type="email" name="email" autocomplete="off"><br>

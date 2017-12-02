@@ -197,7 +197,7 @@ p {
 .navigation a:hover {
   color: white;
 }
-input {
+input[id="toggle"] {
   display: none;
 }
 label {
