@@ -1,6 +1,6 @@
 <meta content="width=device-width, initial-scale=1" name="viewport">
 <meta content="text/html; charset=utf-8" http-equiv="Content-type">
-<title>Yung Innovation 2017</title>
+<title>Tónleikur - Tónleikavefurinn</title>
 <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
 <link href="static/style.css" rel="stylesheet" type="text/css">
@@ -14,10 +14,10 @@
 			<input id="toggle" type="checkbox"> <label for="toggle">&#9776; menu</label>
 			<div class="navigation">
 				<section>
-					<a href="/">Home</a>
+					<a href="/">Forsíða</a>
 				</section>
 				<section>
-					<a href="/about">About</a>
+					<a href="/about">Um vefinn</a>
 				</section>
 			</div>
 		</nav>
