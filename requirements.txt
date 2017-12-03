@@ -1,5 +1,4 @@
 bottle
 pymysql
-json
 urllib.request
 os
