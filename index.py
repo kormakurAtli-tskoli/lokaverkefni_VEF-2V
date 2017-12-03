@@ -11,17 +11,41 @@ def staticFile(filename):
 
 @route("/")
 def index():
-    return template("index.tpl")
+    with urllib.request.urlopen("http://www.apis.is/concerts") as skra:
+        data = json.loads(skra.read().decode())
+    data = data["results"]
+    return template("index.tpl",data=data)
 
-@route("/performers")
+@route("/about")
 def index():
     with urllib.request.urlopen("http://www.apis.is/concerts") as skra:
         data = json.loads(skra.read().decode())
     data = data["results"]
-    return template("performers.tpl",data = data)
+    return template("about.tpl",data = data)
 
-@route("/tickets")
-def index():
-    return template("ticket.tpl")
+@route("/<breyta>",method=['GET', 'POST'])
+def index(breyta):
+    if request.forms.get("name"):
+        connection = pymysql.connect(host='tsuts.tskoli.is',
+                                     port=3306,
+                                     user='1604002850',
+                                     passwd='mypassword',
+                                     db='1604002850_lokaverkefniVEF')
+        name = request.forms.get("name")
+        email = request.forms.get("email")
+        time = request.forms.get("concert")
+        with connection.cursor() as cursor:
+            sql = "INSERT INTO skraningar (name, email, concert, time) VALUES ('"+name+"', '"+email+"', '"+breyta+"', '"+time+"')"
+            cursor.execute(sql)
+            connection.commit()
+            connection.close()
+    with urllib.request.urlopen("http://www.apis.is/concerts") as skra:
+        data = json.loads(skra.read().decode())
+    data = data["results"]
+    listi = []
+    for i in data:
+        if i["eventDateName"] == breyta:
+            listi.append(i)
+    return template("concert.tpl",data=listi,)
 
 run(host='localhost', port=8080)

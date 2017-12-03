@@ -457,3 +457,21 @@ body{
   margin-top: 115px;
   background-color: #f7f5f3;
 }
+a.darken {
+    background: black;
+    padding: 0;
+}
+
+a.darken img {
+    
+    -webkit-transition: all 0.3s linear;
+       -moz-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+         -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+}
+
+a.darken:hover img {
+    opacity: 0.6;
+            
+}

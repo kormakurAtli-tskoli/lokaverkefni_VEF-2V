@@ -17,10 +17,7 @@
 					<a href="/">Home</a>
 				</section>
 				<section>
-					<a href="/performers">Performers</a>
-				</section>
-				<section>
-					<a href="/tickets">Tickets</a>
+					<a href="/about">About</a>
 				</section>
 			</div>
 		</nav>
