@@ -13,11 +13,14 @@
 			%hall = ""
 		%end
 	%end
+	<div style="width: 50%;float: right;">
+	<img style="margin: auto;" width="400px" src="{{i["imageSource"]}}">
+	<hr>
 	<p>{{name}}</p>
 	<p>{{fname}}</p>
 	<p>{{place}}</p>
 	<p>{{hall}}</p>
-	<hr>
+	</div>
 	<form action="/{{i["eventDateName"]}}" method="post">
 		<input type="text" name="name" placeholder="Jón Sigurðsson"><br>
 		<input type="email" name="email" placeholder="jon78@gmail.com"><br>
