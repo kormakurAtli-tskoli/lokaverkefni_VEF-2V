@@ -1,4 +1,4 @@
 bottle
 pymysql
-simplejson-3.13.2-cp27-cp27m-win32.whl
+https://pypi.python.org/packages/2a/c5/63cca41968d09804215e591b8e9abf4e0ff293c84f6e55b16f5d90c1c114/simplejson-3.13.2-cp27-cp27m-win32.whl
 os
