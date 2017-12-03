@@ -14,7 +14,7 @@
 		%end
 	%end
 	<div style="width: 50%;float: right;">
-	<img style="margin: auto;" width="400px" src="{{i["imageSource"]}}">
+	<img style="margin: auto;" width="600px" src="{{i["imageSource"]}}">
 	<hr>
 	<p>{{name}}</p>
 	<p>{{fname}}</p>
