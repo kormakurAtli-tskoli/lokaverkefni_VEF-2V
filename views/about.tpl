@@ -3,12 +3,14 @@
 	<head>
 		% include('header.tpl')
 	</head>
-	<body>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<body class="about">
+	<h1>Lokaskýrsla</h1>
+	<p>
+
+<i>Kormákur skrifar</i>
+
+Sjálfur byrjaði ég ekki að vinna við verkefnið fyrr en langt var liðið á tímann sem við fengum. Á þeim tíma hafði Andri þó sett inn skrár úr eldra verkefni og lagað þær til svo hægt væri að nota þær í þessu tiltekna verkefni, með bottlepy þar að segja. Síðan þegar ég byrjaði að vinna í verkefninu, vorum við hvorugir mikið að setja inn á Github það sem við höfðum verið að gera, heldur héldum því locally. Það var aðallega vegna þess að við unnum aðallega í sitthvoru lagi, og vorum ekki vissir með hvaða breytingar væru í lagi fyrir hinum. Síðan allt of seint ákváðum við loksins að binda gögnin okkar saman, og við Skypuðum á meðan við ákváðum hvað færi og hvað fengi að vera frá öðrum hvorum okkar. Svo síðasta daginn tók ég kipp og lauk við uppsetningu á json gögnum af apis, og tengingu við SQL gagnagrunn. Í heild gekk verkefnið frekar vel.
+
+<i>Andri & Kormákur</i></p>
 	</body>
 </html>

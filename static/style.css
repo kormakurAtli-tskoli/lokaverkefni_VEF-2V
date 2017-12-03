@@ -493,3 +493,7 @@ input[type=submit]:hover{
   background-color: grey;
   cursor: pointer;
 }
+.about{
+  max-width: 800px;
+  margin: auto;
+}
