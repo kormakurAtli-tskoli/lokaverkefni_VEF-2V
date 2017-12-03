@@ -486,3 +486,10 @@ input{
 form{
   margin-top: 100px;
 }
+input[type=submit]{
+  width: 80px;
+}
+input[type=submit]:hover{
+  background-color: grey;
+  cursor: pointer;
+}
