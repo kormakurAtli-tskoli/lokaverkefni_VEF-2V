@@ -3,7 +3,6 @@
 from bottle import *
 import pymysql
 import json, urllib.request
-import os
 
 #static files route
 @route("/static/<filename>")
