@@ -3,6 +3,7 @@
 from bottle import *
 import pymysql
 import json, urllib.request
+import os
 
 #static files route
 @route("/static/<filename>")
@@ -48,4 +49,4 @@ def index(breyta):
             listi.append(i)
     return template("concert.tpl",data=listi,)
 
-run(host='0.0.0.0', port=argv[1])
+run(host='0.0.0.0',  port=os.environ.get('PORT'))
