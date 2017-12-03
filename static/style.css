@@ -474,7 +474,7 @@ a.darken img {
 a.darken:hover img {
     opacity: 0.6;           
 }
-input{
+input,select{
   font-size:1.5em;
   outline: none;
   margin: auto;
