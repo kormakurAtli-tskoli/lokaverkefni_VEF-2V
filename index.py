@@ -48,4 +48,4 @@ def index(breyta):
             listi.append(i)
     return template("concert.tpl",data=listi,)
 
-run(host='localhost', port=8080)
+run(host='0.0.0.0', port=argv[1])
