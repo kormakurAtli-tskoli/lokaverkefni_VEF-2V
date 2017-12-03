@@ -7,7 +7,7 @@
 	%for x in range(1):
 		%for i in data:
 			<a href="/{{i["eventDateName"]}}" class="darken">
-				<img width="16.666667%" style="float:left;" src="{{i["imageSource"]}}"></img>
+				<img width="20%" style="float:left;" src="{{i["imageSource"]}}"></img>
 			</a>
 		%end
 	%end
