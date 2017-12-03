@@ -472,6 +472,9 @@ a.darken img {
 }
 
 a.darken:hover img {
-    opacity: 0.6;
-            
+    opacity: 0.6;           
+}
+input{
+  font-size:1.4em;
+  outline: none;
 }
