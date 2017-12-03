@@ -475,6 +475,12 @@ a.darken:hover img {
     opacity: 0.6;           
 }
 input{
-  font-size:1.4em;
+  font-size:1.5em;
   outline: none;
+  margin: auto;
+  margin-top: 40px;
+  padding: 6px;
+}
+form{
+  margin-top: 100px;
 }
