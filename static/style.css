@@ -480,6 +480,8 @@ input{
   margin: auto;
   margin-top: 40px;
   padding: 6px;
+  border:0px white solid;
+  display: block;
 }
 form{
   margin-top: 100px;
