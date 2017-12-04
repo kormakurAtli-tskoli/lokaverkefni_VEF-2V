@@ -3,9 +3,9 @@
 	<head>
 		% include('header.tpl')
 	</head>
-	<body class="about">
-	<h1>Lokaskýrsla</h1>
-	<p>
+	<body>
+	<h1 class="about">Lokaskýrsla</h1>
+	<p class="about">
 
 <i>Kormákur skrifar</i>
 
