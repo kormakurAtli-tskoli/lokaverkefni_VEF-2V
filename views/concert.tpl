@@ -22,8 +22,8 @@
 	<p>{{hall}}</p>
 	</div>
 	<form action="/{{i["eventDateName"]}}" method="post">
-		<input type="text" name="name" placeholder="Jón Sigurðsson"><br>
-		<input type="email" name="email" placeholder="jon78@gmail.com"><br>
+		<input type="text" name="name" placeholder="Jón Sigurðsson" required><br>
+		<input type="email" name="email" placeholder="jon78@gmail.com" required><br>
 		<select name="concert">
 		%t = 0
 		%for i in data:
