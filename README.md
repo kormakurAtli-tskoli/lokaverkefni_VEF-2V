@@ -24,7 +24,9 @@ Síðan okkar er tónleikasíða og gerir fólki kleift til þess að kaupa mið
 þú velur hvaða tónleika sem þú villt fara á og skráir þig síðan, einfaldara getur það ekki verið.
 
 ### Tæknileg atriði
+_Kormákur skrifar_
 
+Erum að nota bottle-py, tenging á mySQL gagnagrunn með pymysql, json, .css3 í viðmót, templates, routing, html-form. Svo að sjálfsögðu deployment á Heroku. Ég notaði Sublime Text 3, Notepad++ og IDLE til skiptis.
 
 ### Greiningar, hannanir, lýsingar og skýring á afturð.
 _Andri skrifar_
